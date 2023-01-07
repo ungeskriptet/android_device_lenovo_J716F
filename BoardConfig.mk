@@ -8,6 +8,8 @@ DEVICE_PATH := device/lenovo/J716F
 
 # Allow building duplicate rules
 BUILD_BROKEN_DUP_RULES := true
+# Allow prebuilt ELF files
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 # A/B
 AB_OTA_UPDATER := true
