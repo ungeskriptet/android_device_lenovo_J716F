@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_p11_pro_plus.mk
+    $(LOCAL_DIR)/lineage_J716F.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_p11_pro_plus-user \
-    lineage_p11_pro_plus-userdebug \
-    lineage_p11_pro_plus-eng
+    lineage_J716F-user \
+    lineage_J716F-userdebug \
+    lineage_J716F-eng

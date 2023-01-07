@@ -1,4 +1,4 @@
-# Android device tree for Lenovo Lenovo TB-J716F (p11_pro_plus)
+# Android device tree for Lenovo Xiaoxin Pad Pro 2021 (TB-J716F)
 
 ```
 #

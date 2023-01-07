@@ -11,11 +11,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit from p11_pro_plus device
-$(call inherit-product, device/lenovo/p11_pro_plus/device.mk)
+# Inherit from J716F device
+$(call inherit-product, device/lenovo/J716F/device.mk)
 
-PRODUCT_DEVICE := p11_pro_plus
-PRODUCT_NAME := lineage_p11_pro_plus
+PRODUCT_DEVICE := J716F
+PRODUCT_NAME := lineage_J716F
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := Lenovo TB-J716F
 PRODUCT_MANUFACTURER := lenovo

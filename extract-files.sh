@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=p11_pro_plus
+DEVICE=J716F
 VENDOR=lenovo
 
 # Load extract_utils and do some sanity checks

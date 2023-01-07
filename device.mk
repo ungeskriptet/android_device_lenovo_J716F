@@ -111,4 +111,4 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/lenovo/p11_pro_plus/p11_pro_plus-vendor.mk)
+$(call inherit-product, vendor/lenovo/J716F/J716F-vendor.mk)

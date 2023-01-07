@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/lenovo/p11_pro_plus
+DEVICE_PATH := device/lenovo/J716F
 
 # A/B
 AB_OTA_UPDATER := true
@@ -54,8 +54,8 @@ BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
-TARGET_KERNEL_CONFIG := p11_pro_plus_defconfig
-TARGET_KERNEL_SOURCE := kernel/lenovo/p11_pro_plus
+TARGET_KERNEL_CONFIG := J716F_defconfig
+TARGET_KERNEL_SOURCE := kernel/lenovo/J716F
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
@@ -109,4 +109,4 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Inherit the proprietary files
-include vendor/lenovo/p11_pro_plus/BoardConfigVendor.mk
+include vendor/lenovo/J716F/BoardConfigVendor.mk
