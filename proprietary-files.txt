@@ -1387,8 +1387,8 @@ vendor/lib/libOmxQcelp13Dec.so
 vendor/lib/libOmxQcelp13Enc.so
 vendor/lib/libOmxSwVdec.so
 vendor/lib/libOmxSwVencMpeg4.so
-vendor/lib/libOmxVdec.so
-vendor/lib/libOmxVenc.so
+# FIXME -vendor/lib/libOmxVdec.so
+# FIXME -vendor/lib/libOmxVenc.so
 vendor/lib/libOmxVideoDSMode.so
 vendor/lib/libOmxVpp.so
 vendor/lib/libOmxWmaDec.so
@@ -1434,8 +1434,8 @@ vendor/lib64/libOmxQcelp13Dec.so
 vendor/lib64/libOmxQcelp13Enc.so
 vendor/lib64/libOmxSwVdec.so
 vendor/lib64/libOmxSwVencMpeg4.so
-vendor/lib64/libOmxVdec.so
-vendor/lib64/libOmxVenc.so
+# FIXME -vendor/lib64/libOmxVdec.so
+# FIXME -vendor/lib64/libOmxVenc.so
 vendor/lib64/libOmxVpp.so
 vendor/lib64/libOmxWmaDec.so
 vendor/lib64/libc2dcolorconvert.so
