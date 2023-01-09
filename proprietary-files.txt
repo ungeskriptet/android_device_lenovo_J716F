@@ -628,12 +628,12 @@ vendor/lib/libOpenCL.so
 vendor/lib/libcdsp_default_listener.so
 vendor/lib/libcdsprpc.so
 vendor/lib/libfastcvdsp_stub.so
-vendor/lib/libfastcvopt.so
+-vendor/lib/libfastcvopt.so
 vendor/lib64/libOpenCL.so
 vendor/lib64/libcdsp_default_listener.so
 vendor/lib64/libcdsprpc.so
 vendor/lib64/libfastcvdsp_stub.so
-vendor/lib64/libfastcvopt.so
+-vendor/lib64/libfastcvopt.so
 
 # Charger
 vendor/bin/hvdcp_opti
@@ -2150,8 +2150,8 @@ vendor/bin/thermal-engine
 vendor/etc/init/android.hardware.thermal@2.0-service.qti.rc
 vendor/etc/init/init_thermal-engine.rc
 vendor/etc/vintf/manifest/android.hardware.thermal@2.0-service.qti.xml
-vendor/lib/libthermalclient.so
-vendor/lib64/libthermalclient.so
+-vendor/lib/libthermalclient.so
+-vendor/lib64/libthermalclient.so
 
 # Thermal configs
 vendor/etc/thermal-engine.conf
@@ -2235,10 +2235,10 @@ vendor/etc/wifi/wpa_supplicant_overlay.conf
 # Wi-Fi firmware
 vendor/firmware/wigig/wigig.ini
 vendor/firmware/wlan/qca_cld/qca6390/WCNSS_qcom_cfg.ini
-vendor/firmware/wlan/qca_cld/qca6390/wlan_mac.bin
+# FIXME vendor/firmware/wlan/qca_cld/qca6390/wlan_mac.bin
 vendor/firmware/wlan/qca_cld/qca6490/WCNSS_qcom_cfg.ini
-vendor/firmware/wlan/qca_cld/qca6490/wlan_mac.bin
-vendor/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini
+# FIXME -vendor/firmware/wlan/qca_cld/qca6490/wlan_mac.bin
+# FIXME -vendor/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini
 
 # Wi-Fi Display
 system_ext/apex/com.android.vndk.v30/lib/libgralloctypes.so
@@ -2609,7 +2609,7 @@ vendor/firmware/spk3_fast_switch3.txt
 vendor/firmware/spk4_fast_switch1.txt
 vendor/firmware/spk4_fast_switch2.txt
 vendor/firmware/spk4_fast_switch3.txt
-vendor/firmware/wlanmdsp.otaupdate
+# FIXME -vendor/firmware/wlanmdsp.otaupdate
 vendor/lib/btaudio_offload_if.so
 vendor/lib/carwatchdog_aidl_interface-V2-ndk_platform.so
 vendor/lib/ftm_fm_lib.so
