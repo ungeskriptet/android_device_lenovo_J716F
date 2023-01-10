@@ -20,6 +20,9 @@ PRODUCT_PACKAGES += \
     update_engine_sideload \
     update_verifier
 
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/prebuilts/dtb.img:dtb.img
+
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
     POSTINSTALL_PATH_system=system/bin/otapreopt_script \
